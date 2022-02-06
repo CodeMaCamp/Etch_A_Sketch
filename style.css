@@ -1,0 +1,28 @@
+#container{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border: 1px;
+    margin: 0%;
+    padding: 0%;
+}
+.column{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(145, 161, 145);
+    border: 1px;
+    border-style: solid;
+    
+    margin: 0%;
+    padding: 0%;
+}
