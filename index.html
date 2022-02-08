@@ -9,9 +9,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container">
+        <h1> Etch a Sketch</h1>
+        <div id="flexContainer">
+            <div id="container">
+            </div>
+            <div>
+                <div class="slideContainer">
+                    <input type="range" min="10" max="60" step="1" value="16" id="myRange" >
+                </div>
+                <div id="buttonContainer">
+                    <button class="btn" id="colors" value="true"> COLORS </button>
+                    <button class="btn" id="clear"> CLEAR </button>
+                    <button class="btn" id="reset"> RESET </button>
+
+                </div>
+            </div>
             
         </div>
+        
         <script src="script.js" async defer></script>
     </body>
 </html>
