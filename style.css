@@ -1,92 +1,88 @@
-#container{
-    width: 300px;
-    height: 300px;
-    background-color: brown;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    border-color: #587c75;
-    border-style: solid;
-    border-width:3px;
-    padding: 0;
+#container {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-color: #587c75;
+  border-style: solid;
+  border-width: 3px;
+  padding: 0;
 }
-.row{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    border-style: solid;
-    border: 0.5px;
-    margin: 0%;
-    padding: 0%;
-}
-.column{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(231, 241, 192);
-    border: 0.5px;
-    border-style:hidden;
-    
-    margin: 0%;
-    padding: 0%;
-}
-#myRange {
-    -webkit-appearance: none;
-    width: 70%;
-    height: 8px;
-    border-radius: 5px;  
-    background: #abd8d0;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin: 15%;
-  }
-  
-
-#flexContainer{
+.row {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  border-style: solid;
+  border: 0.5px;
+  margin: 0%;
+  padding: 0%;
+}
+.column {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(231, 241, 192);
+  border: 0.5px;
+  border-style: hidden;
+
+  margin: 0%;
+  padding: 0%;
+}
+#myRange {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 8px;
+  border-radius: 5px;
+  background: #abd8d0;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin: 15%;
+}
+
+#flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
-  
+
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
-#buttonContainer{
+#buttonContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   height: 140px;
 }
-#slideContainer{
+#slideContainer {
   height: 30px;
   align-content: center;
 }
-.btn{
+.btn {
   width: 80px;
-  border-style:double;
-  background-color:green;
+  border-style: double;
+  background-color: green;
   border-radius: 8px;
   height: 30px;
   color: rgb(255, 255, 255);
 }
-body{
+body {
   background-color: rgba(116, 136, 136, 0.705);
 }
-h1{
+h1 {
   padding-bottom: 10px;
   text-align: center;
- 
- 
-  font-size:280%;
-
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 280%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
-
 }
